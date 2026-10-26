@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="th" dir="ltr">
+
+<head>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/date.js"></script>
+    <link href="./css/style.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Biozin — ความหวังสำหรับการฟื้นฟูการได้ยินของคุณ! ฟื้นคืนเสียงแห่งชีวิตได้ภายใน 14 วัน!</title>
+    <link rel="icon" href="./images/pack-2.png">
+    <link rel="stylesheet" href="./css/style.min.css">
+   
+<script src="../js/preview.js"></script>
+</head>
+
+<body class="ev-date">
+    <div class="promo-bg">
+        <header class="header">
+            <div class="container container-big">
+                <div class="header__content">
+                    <div class="header__logo">
+                        </div>
+                    <div class="header__main">
+                        <a class="header__link header__link--composition" href="#composition">
+                            ส่วนประกอบ</a><a class="header__link header__link--reviews" href="#reviews">
+                            ความคิดเห็นของลูกค้า</a>
+                        <div class="header__timer">
+                            <div class="timer__text">จนกว่าจะหมดเวลาโปรโมชั่น:</div>
+                            <div class="timer__block">
+                                <div class="timer__hours">
+                                    <span class="hours" id="count-down-hours">00</span>
+                                </div>
+                                <span class="timer__dots">:</span>
+                                <div class="timer__minutes">
+                                    <span class="minutes" id="count-down-minutes">05</span>
+                                </div>
+                                <span class="timer__dots">:</span>
+                                <div class="timer__seconds">
+                                    <span class="seconds" id="count-down-seconds">00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#order" class="header__btn btn ever-popup-btn">
+                            สั่งซื้อ</a>
+                    </div>
+                    <button class="header__burger">
+                        <span class="header-burger__line"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <script>var time=300;function updateBackTimer(){document.getElementById('count-down-hours').textContent='00';document.getElementById('count-down-minutes').textContent=String(Math.floor(time/60)).padStart(2,'0');document.getElementById('count-down-seconds').textContent=String(time%60).padStart(2,'0');if(time>0){time--;setTimeout(updateBackTimer,1000)}}updateBackTimer();</script>
+        <section class="promo block">
+            <div class="container">
+                <div class="promo__content">
+                    <h2 class="title promo__title">Biozin — ความหวังสำหรับการฟื้นฟูการได้ยินของคุณ!
+                        ฟื้นคืนเสียงแห่งชีวิตได้ภายใน 14 วัน!</h2>
+                    <div class="promo__pack">
+                        <picture><img src="images/pack-2.png" alt="product"></picture>
+                    </div>
+                    <div class="promo__box">
+                        <div class="promo__date">
+                            เฉพาะวันนี้ <br><span>
+                                <script>dtime('th', 0)</script>
+                            </span>
+                        </div>
+                        <div class="promo__price price">
+                            <div class="price__old">
+                                <span class="x_currency"><x-currency></x-currency></span>
+                                <span class="x_price_previous"> <x-oldprice>1980฿</x-oldprice></span>
+                            </div>
+                            <div class="price__new">
+                                <span class="x_currency"><x-currency></x-currency></span>
+                                <span class="x_price_current"> <x-newprice>990฿</x-newprice></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="promo__form">
+                        <form class="x_order_form form" action="#" method="post">
+                        <input type="hidden" name="subid5" value="back_vsl_form"><input type="hidden" name="click_id" value="preview"><label class="form__input--wrap">
+                                <input class="form__input" placeholder="ชื่อของคุณ" type="text" name="name" minlength="2" required>
+                            </label>
+                            <label class="form__input--wrap">
+                                <input class="form__input" placeholder="+66" type="tel" minlength="8" maxlength="16" required name="phone" autocomplete="tel" inputmode="tel"></label>
+                            <button class="btn form__btn" type="submit">สั่งซื้อ</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="sings block">
+        <div class="container">
+            <ul class="sings__list">
+                <li class="sings__item">
+                    <img class="sings__icon" src="images/sign-icon-1.svg" alt="sign">
+                    <p class="sings__text">
+                        ช่วยปรับปรุงการได้ยินและลดเสียงรบกวนในหู
+                    </p>
+                </li>
+                <li class="sings__item">
+                    <img class="sings__icon" src="images/sign-icon-2.svg" alt="sign">
+                    <p class="sings__text">
+                        ช่วยปรับสมดุลวงจรการนอนหลับและการตื่น
+                    </p>
+                </li>
+                <li class="sings__item">
+                    <img class="sings__icon" src="images/sign-icon-3.svg" alt="sign">
+                    <p class="sings__text">
+                        ช่วยผ่อนคลายระบบประสาท
+                    </p>
+                </li>
+            </ul>
+            <h2 class="title sings__title">"ไม่มี"</h2>
+            <h3 class="subtitle sings__subtitle">ปัญหาเหล่านี้:</h3>
+            <ul class="sings__content">
+                <li class="sings__box">
+                    <div class="sings__img">
+                        <picture><img src="images/sing-1.jpg" alt="sing"></picture>
+                    </div>
+                    <h4 class="sings__name">เสียงรบกวนในหู</h4>
+                </li>
+                <li class="sings__box">
+                    <div class="sings__img">
+                        <picture><img src="images/sing-2.jpg" alt="sing"></picture>
+                    </div>
+                    <h4 class="sings__name">วิงเวียนศีรษะ</h4>
+                </li>
+                <li class="sings__box">
+                    <div class="sings__img">
+                        <picture><img src="images/sing-3.jpg" alt="sing"></picture>
+                    </div>
+                    <h4 class="sings__name">ปวดและไม่สบาย</h4>
+                </li>
+                <li class="sings__box">
+                    <div class="sings__img">
+                        <picture><img src="images/sing-4.jpg" alt="sing"></picture>
+                    </div>
+                    <h4 class="sings__name">ปัญหาการนอนหลับ</h4>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="problem block bg">
+        <div class="container">
+            <h2 class="title problem__title">
+                หากไม่แก้ไขปัญหา อาจแย่ลง
+            </h2>
+            <h3 class="subtitle problem__subtitle">
+                อย่าปล่อยให้สิ่งนี้เกิดขึ้น!
+            </h3>
+            <ul class="problem__list">
+                <li class="problem__item">
+                    <div class="problem__icon">
+                        <img src="images/problem-1.svg" alt="problem">
+                    </div>
+                    <div class="problem__info">
+                        <h4 class="problem__name">การสูญเสียการได้ยิน</h4>
+                        <p class="problem__text">
+                            ความเสี่ยงร้ายแรงเกิดจากการไหลเวียนของเลือดที่ผิดปกติและการเสื่อมสภาพของเซลล์ในหูชั้นใน
+                        </p>
+                    </div>
+                </li>
+                <li class="problem__item">
+                    <div class="problem__icon">
+                        <img src="images/problem-2.svg" alt="problem">
+                    </div>
+                    <div class="problem__info">
+                        <h4 class="problem__name">โรคเรื้อรัง</h4>
+                        <p class="problem__text">
+                            ภูมิคุ้มกันที่ลดลงและการเสื่อมของระบบต่าง ๆ
+                            ส่งผลให้เกิดการติดเชื้อที่เป็นหนองและเป็นสาเหตุของโรคหูน้ำหนวกบ่อยครั้ง
+                        </p>
+                    </div>
+                </li>
+                <li class="problem__item">
+                    <div class="problem__icon">
+                        <img src="images/problem-3.svg" alt="problem">
+                    </div>
+                    <div class="problem__info">
+                        <h4 class="problem__name">ไมเกรนเรื้อรัง</h4>
+                        <p class="problem__text">
+                            การรบกวนวงจรการนอนหลับและระดับความเครียดที่สูงมีผลกระทบเชิงลบต่อระบบประสาท
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <div class="action">
+        <div class="container">
+            <div class="action__inner block">
+                <p class="action__title">
+                    เฉพาะวันนี้ <br><span>
+                        <script>dtime('th', 0)</script>
+                    </span>
+                </p>
+                <picture class="action__image"><img class="action__prod" src="./images/pack-2.png" alt="image">
+                </picture>
+                <div class="action__price price">
+                    <div class="price__old">
+                        <span class="x_currency"><x-currency></x-currency></span><span class="x_price_previous">
+                            <x-oldprice>1980฿</x-oldprice></span>
+                    </div>
+                    <div class="price__new">
+                        <span class="x_currency"><x-currency></x-currency></span><span class="x_price_current">
+                            <x-newprice>990฿</x-newprice></span>
+                    </div>
+                </div>
+
+                <form class="action__form x_order_form form" action="#" method="post">
+                    <input type="hidden" name="subid5" value="back_vsl_form"><input type="hidden" name="click_id" value="preview"><label class="form__input--wrap action__input">
+                        <input class="form__input" placeholder="ชื่อของคุณ" type="text" name="name" minlength="2" required></label><label class="form__input--wrap action__input">
+                        <input class="form__input" placeholder="+66" type="tel" minlength="8" maxlength="16" required name="phone" autocomplete="tel" inputmode="tel"></label><button class="btn action__btn" type="submit">สั่งซื้อ</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <section class="technology block">
+        <div class="container">
+            <div class="technology__content">
+                <div class="technology__info">
+                    <h2 class="title technology__title">
+                        เทคโนโลยีล้ำสมัยสำหรับการจัดการปัญหาการได้ยิน
+                    </h2>
+                    <div class="technology__box">
+                        <p class="technology__text">
+                            จำนวนคนที่มีปัญหาการสูญเสียการได้ยินเพิ่มขึ้นทุกปี ซึ่งอาจเกี่ยวข้องกับสภาพการทำงาน
+                            การติดเชื้อในหู พันธุกรรม
+                            โรคของระบบประสาท และไวรัสยุคใหม่ ภูมิคุ้มกันที่อ่อนแอมีความอ่อนไหวต่อผลกระทบที่เป็นอันตราย
+                            นอกจากนี้ยังจำเป็นต้องมีการป้องกันอวัยวะการได้ยินเพิ่มเติม
+
+                        </p>
+                        <p class="technology__text">
+                            ผู้เชี่ยวชาญชั้นนำได้พัฒนาผลิตภัณฑ์ที่ช่วยแก้ปัญหาการได้ยิน
+                            โดยมุ่งตรงไปยังระบบประสาทส่วนกลางและเสริมสร้างฟังก์ชั่นการป้องกันต้านไวรัสของร่างกาย
+                        </p>
+                    </div>
+                </div>
+                <div class="technology__img">
+                    <picture><img src="images/technology-img.jpg" alt="technology"></picture>
+                    <div class="technology-img__name">
+                        สมาคมต่อต้านการสูญเสียการได้ยิน
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="restore block bg">
+        <div class="container">
+            <div class="restore__content">
+                <div class="restore__box">
+                    <h2 class="title restore__title">
+                        Biozin ฟื้นฟูการได้ยินอย่างไร
+                    </h2>
+                    <ul class="restore__list">
+                        <li class="restore__item">
+                            <div class="restore__icon">
+                                <div class="restore-icon__text">1</div>
+                            </div>
+                            <p class="restore__text">
+                                แคปซูลช่วยปรับปรุงการได้ยินและลดเสียงรบกวนในหู สิ่งนี้อาจช่วยปรับปรุงการไหลเวียนของเลือด
+                                และช่วยลดการหดเกร็งของกล้ามเนื้อ
+                            </p>
+                        </li>
+                        <li class="restore__item">
+                            <div class="restore__icon">
+                                <div class="restore-icon__text">2</div>
+                            </div>
+                            <p class="restore__text">
+                                ช่วยผ่อนคลายระบบประสาทและเพิ่มภูมิคุ้มกัน สารสกัดจากพืชในสูตรมีผลดีต่อสุขภาพโดยรวม
+                                ช่วยในการฟื้นฟูเซลล์และการได้ยิน
+
+                            </p>
+                        </li>
+                        <li class="restore__item">
+                            <div class="restore__icon">
+                                <div class="restore-icon__text">3</div>
+                            </div>
+                            <p class="restore__text">
+                                ช่วยปรับสมดุลวงจรการนอนหลับและการตื่น
+
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="restore__pack">
+                    <picture><img src="images/pack-2.png" alt="product"></picture>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="can block">
+        <div class="container">
+            <h2 class="title can__title">คุณสามารถยกระดับคุณภาพชีวิตของคุณได้!</h2>
+            <div class="can__content">
+                <div class="can__box">
+                    <div class="can__img">
+                        <picture><img src="images/can-1.jpg" alt="can"></picture>
+                    </div>
+                    <ul class="can__list">
+                        <li class="can__item">พูดคุยโดยไม่มีข้อจำกัด</li>
+                        <li class="can__item">ลืมความเจ็บปวดในหู</li>
+                        <li class="can__item">ลืมเสียงรบกวนในหู</li>
+                    </ul>
+                </div>
+                <div class="can__box">
+                    <div class="can__img">
+                        <picture><img src="images/can-2.jpg" alt="can"></picture>
+                    </div>
+                    <ul class="can__list">
+                        <li class="can__item">ลืมเสียงก้องในหู</li>
+                        <li class="can__item">ไม่ต้องกังวลเรื่องการสูญเสียการได้ยิน</li>
+                        <li class="can__item">ใช้ชีวิตอย่างเต็มที่</li>
+                    </ul>
+                </div>
+                <div class="can__box">
+                    <div class="can__img">
+                        <picture><img src="images/can-3.jpg" alt="can"></picture>
+                    </div>
+                    <ul class="can__list">
+                        <li class="can__item">เพลิดเพลินกับทุกเสียงรอบตัวคุณ</li>
+                        <li class="can__item">คืนความสุขให้กับการสื่อสารกับคนที่คุณรัก</li>
+                        <li class="can__item">ฟังเพลงโปรดของคุณอีกครั้ง</li>
+                    </ul>
+                </div>
+                <div class="can__box">
+                    <div class="can__img">
+                        <picture><img src="images/can-4.jpg" alt="can"></picture>
+                    </div>
+                    <ul class="can__list">
+                        <li class="can__item">
+                            สัมผัสความสุขจากเสียงนกร้องและเสียงหัวเราะของคนที่คุณรัก
+                        </li>
+                        <li class="can__item">
+                            กำจัดความไม่สบายใจทั้งที่บ้านและที่ทำงาน
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="action">
+        <div class="container">
+            <div class="action__inner action__inner-top_line block">
+                <p class="action__title">
+                    เฉพาะวันนี้ <br><span>
+                        <script>dtime('th', 0)</script>
+                    </span>
+                </p>
+                <picture class="action__image"><img class="action__prod" src="./images/pack-2.png" alt="image">
+                </picture>
+                <div class="action__price price">
+                    <div class="price__old">
+                        <span class="x_currency"><x-currency></x-currency></span><span class="x_price_previous">
+                            <x-oldprice>1980฿</x-oldprice></span>
+                    </div>
+                    <div class="price__new">
+                        <span class="x_currency"><x-currency></x-currency></span><span class="x_price_current">
+                            <x-newprice>990฿</x-newprice></span>
+                    </div>
+                </div>
+                <form class="action__form x_order_form form" action="#" method="post">
+                    <input type="hidden" name="subid5" value="back_vsl_form"><input type="hidden" name="click_id" value="preview"><label class="form__input--wrap action__input">
+                        <input class="form__input" placeholder="ชื่อของคุณ" type="text" name="name" minlength="2" required></label><label class="form__input--wrap action__input">
+                        <input class="form__input" placeholder="+66" type="tel" minlength="8" maxlength="16" required name="phone" autocomplete="tel" inputmode="tel"></label><button class="btn action__btn" type="submit">สั่งซื้อ</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <section class="composition block" id="composition">
+        <div class="container">
+            <h2 class="composition__title title">ส่วนประกอบ Biozin</h2>
+            <div class="composition__inner">
+                <div class="composition__content">
+                    <div class="composition__item composition__item-2">
+                        <div class="composition__item-header">
+                            <div class="composition__item-image">
+                                <img src="images/composition_image_2.png" alt="icon">
+                            </div>
+                            <p class="composition__item-title text-bold">แมกนีเซียม</p>
+                        </div>
+                        <p class="composition__item-text">
+                            ช่วยฟื้นฟูเส้นประสาทหลังการสูญเสียการได้ยินจากเสียงดังหรือการสูญเสียการได้ยิน
+                            และช่วยปรับปรุงการส่งข้อมูลเสียงไปยังสมอง
+                        </p>
+                    </div>
+                    <div class="composition__item composition__item-3">
+                        <div class="composition__item-header">
+                            <div class="composition__item-image">
+                                <img src="images/composition_image_3.png" alt="icon">
+                            </div>
+                            <p class="composition__item-title text-bold">แปะก๊วย</p>
+                        </div>
+                        <p class="composition__item-text">
+                            ช่วยฟื้นฟูเซลล์ในหู ลดเสียงรบกวนในหู ปรับปรุงโทนเสียงหลอดเลือด
+                            และชะลอการเปลี่ยนแปลงตามธรรมชาติของการได้ยินเนื่องจากอายุ
+                        </p>
+                    </div>
+                    <div class="composition__item composition__item-4">
+                        <div class="composition__item-header">
+                            <div class="composition__item-image">
+                                <img src="images/composition_image_4.png" alt="icon">
+                            </div>
+                            <p class="composition__item-title text-bold">วิตามินบี</p>
+                        </div>
+                        <p class="composition__item-text">
+                            ช่วยปรับปรุงการไหลเวียนโลหิตไปยังหูชั้นใน มีฤทธิ์ต้านอนุมูลอิสระ
+                            และช่วยสนับสนุนการทำงานปกติของสมอง
+
+                        </p>
+                    </div>
+
+                    <div class="composition__item composition__item-4">
+                        <picture class="composition__image"><img class="composition__prod" src="./images/pack-2.png" alt="image"></picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testing block">
+        <div class="container">
+            <h2 class="testing__title title">
+                Biozin ได้รับการยกย่องอย่างสูงจากผู้ใช้
+            </h2>
+            <p class="testing__subtitle">
+                ส่วนใหญ่เห็นผลเชิงบวกในผู้ที่ใช้ Biozin และไม่มีผลข้างเคียง
+            </p>
+            <div class="testing__content">
+                <div class="testing__item">
+                    <div class="testing__item-image testing__item-image-1">
+                        <img src="images/testing_image-1.png" alt="image">
+                    </div>
+                    <p class="testing__item-text">พวกเขาสังเกตเห็นการเปลี่ยนแปลงในทางที่ดีขึ้น</p>
+                </div>
+                <div class="testing__item">
+                    <div class="testing__item-image testing__item-image-2">
+                        <img src="images/testing_image-2.png" alt="image">
+                    </div>
+                    <p class="testing__item-text">
+                        พวกเขาสามารถฟื้นฟูความคมชัดของการได้ยินได้อย่างมีนัยสำคัญ
+                    </p>
+                </div>
+                <div class="testing__item">
+                    <div class="testing__item-image testing__item-image-3">
+                        <img src="images/testing_image-3.png" alt="image">
+                    </div>
+                    <p class="testing__item-text">
+                        กำจัดความไม่สบายและเสียงรบกวนในหูได้สำเร็จ
+                    </p>
+                </div>
+            </div>
+            <a href="#order" class="btn testing__btn ever-popup-btn"> สั่งซื้อ</a>
+        </div>
+    </section>
+    <section class="expert">
+        <div class="container">
+            <div class="expert__inner block">
+                <h2 class="expert__title title">ความคิดเห็นจากผู้เชี่ยวชาญ</h2>
+                <p class="expert__text expert__line">
+                    ผลิตภัณฑ์ที่มีส่วนผสมจากสารสกัดจากพืชควรได้รับการพิจารณาเป็นพิเศษ
+                    เพราะการผสมผสานของส่วนประกอบสามารถให้ผลลัพธ์ที่ครอบคลุม
+                    Biozin เป็นตัวอย่างของผลิตภัณฑ์นี้ ซึ่งเป็นตัวเลือกที่ดีสำหรับการจัดการปัญหาการสูญเสียการได้ยิน
+                    โดยการฟื้นฟูการนอนหลับและปรับปรุงการทำงานของระบบประสาทส่วนกลาง
+                    เนื่องจากการลดลงของการป้องกันในอวัยวะการได้ยินและร่างกายทั้งหมดทำให้เราอ่อนไหวต่อไวรัสใหม่ ๆ
+                    สิ่งสำคัญคือต้องเน้นว่าเราได้บันทึกผลลัพธ์ที่เป็นบวกและได้รับคำวิจารณ์ที่ดีจากผู้บริโภค
+                    ในกรณีที่รุนแรง แนะนำให้ใช้ Biozin สองคอร์ส
+                </p>
+                <div class="expert__info-wrapper">
+                    <div class="expert__info">
+                        <p class="expert__name text-bold">หมอธนภพ</p>
+                        <p class="expert__pos">
+                            หัวหน้าศูนย์วิจัย
+                            ผู้เชี่ยวชาญในการพัฒนาวิธีการและแอปพลิเคชันช่วยเหลือสำหรับการปรับปรุงการได้ยิน
+                            ประสบการณ์ทำงาน 20 ปี
+
+                        </p>
+                    </div>
+                </div>
+                <picture class="expert__image"><img src="images/expert_image.png" alt="image"></picture>
+            </div>
+        </div>
+    </section>
+    <section class="reviews" id="reviews">
+        <div class="action">
+            <div class="container">
+                <div class="action__inner block">
+                    <p class="action__title">
+                        เฉพาะวันนี้ <br><span>
+                            <script>dtime('th', 0)</script>
+                        </span>
+                    </p>
+                    <picture class="action__image"><img class="action__prod" src="./images/pack-2.png" alt="image">
+                    </picture>
+                    <div class="action__price price">
+                        <div class="price__old">
+                            <span class="x_currency"><x-currency></x-currency></span><span class="x_price_previous">
+                                <x-oldprice>1980฿</x-oldprice></span>
+                        </div>
+                        <div class="price__new">
+                            <span class="x_currency"><x-currency></x-currency></span><span class="x_price_current">
+                                <x-newprice>990฿</x-newprice></span>
+                        </div>
+                    </div>
+                    <form class="action__form x_order_form form" action="#" method="post">
+                        <input type="hidden" name="subid5" value="back_vsl_form"><input type="hidden" name="click_id" value="preview"><label class="form__input--wrap action__input">
+                            <input class="form__input" placeholder="ชื่อของคุณ" type="text" name="name" minlength="2" required></label><label class="form__input--wrap action__input">
+                            <input class="form__input" placeholder="+66" type="tel" minlength="8" maxlength="16" required name="phone" autocomplete="tel" inputmode="tel"></label><button class="btn action__btn" type="submit">สั่งซื้อ</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="reviews__inner block">
+                <h2 class="reviews__title title">ความคิดเห็นจากลูกค้า</h2>
+                <div class="reviews__content reviews__slider">
+                    <div class="reviews__item">
+                        <div class="reviews__item-header">
+                            <picture class="reviews__item-ava"><img src="images/reviews_ava-1.png" alt="image">
+                            </picture>
+                            <div class="reviews__item-info">
+                                <p class="reviews__item-name text-bold">มินตรา, 54 ปี</p>
+                                <p class="reviews__item-stars"></p>
+                                <p class="reviews__item-date date-0"></p>
+                            </div>
+                        </div>
+                        <div class="reviews__item-text">
+                            เพื่อนร่วมงานของฉันใช้ Biozin สองรอบ แต่สำหรับฉัน หนึ่งรอบก็เพียงพอแล้ว
+                            ฉันชอบผลิตภัณฑ์ที่มีส่วนผสมจากพืช
+                        </div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__item-header">
+                            <picture class="reviews__item-ava"><img src="images/reviews_ava-2.png" alt="image">
+                            </picture>
+                            <div class="reviews__item-info">
+                                <p class="reviews__item-name text-bold">ชลธิชา , 43 ปี</p>
+                                <p class="reviews__item-stars"></p>
+                                <p class="reviews__item-date date-0"></p>
+                            </div>
+                        </div>
+                        <div class="reviews__item-text">
+                            ฉันทำงานในโรงงานที่มีเสียงดังตลอดเวลา
+                            เสียงเหล่านี้รบกวนฉันแม้กระทั่งที่บ้านและทำให้ฉันนอนไม่หลับ
+                            นั่นเป็นเหตุผลที่ฉันดีใจมากที่ได้เลือก Biozin!
+                        </div>
+
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__item-header">
+                            <picture class="reviews__item-ava"><img src="images/reviews_ava-3.png" alt="image">
+                            </picture>
+                            <div class="reviews__item-info">
+                                <p class="reviews__item-name text-bold">ปรัชญา 55 ปี</p>
+                                <p class="reviews__item-stars"></p>
+                                <p class="reviews__item-date date-1"></p>
+                            </div>
+                        </div>
+                        <div class="reviews__item-text">
+                            ผมค้นหาข้อมูลเกี่ยวกับ Biozin บนอินเทอร์เน็ต และดีใจมากที่พบผลิตภัณฑ์ดีๆ นี้
+                        </div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__item-header">
+                            <picture class="reviews__item-ava"><img src="images/reviews_ava-4.png" alt="image">
+                            </picture>
+                            <div class="reviews__item-info">
+                                <p class="reviews__item-name text-bold">สุเมธ 33 ปี</p>
+                                <p class="reviews__item-stars"></p>
+                                <p class="reviews__item-date date-1"></p>
+                            </div>
+                        </div>
+                        <div class="reviews__item-text">
+                            ฉันมีโรคหูน้ำหนวกเรื้อรังตั้งแต่เด็ก ซึ่งเพิ่มความเสี่ยงต่อการสูญเสียการได้ยิน
+                            ฉันได้อ่านรีวิวดีๆ เกี่ยวกับ Biozin
+                            สั่งซื้อและไม่ผิดหวัง ผลลัพธ์จะสะสมไปเรื่อยๆ
+                            แต่ฉันสังเกตเห็นผลลัพธ์ครั้งแรกหลังจากใช้ไปประมาณหนึ่งสัปดาห์
+                        </div>
+                        <div class="reviews__item-more"></div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__item-header">
+                            <picture class="reviews__item-ava"><img src="images/reviews_ava-5.png" alt="image">
+                            </picture>
+                            <div class="reviews__item-info">
+                                <p class="reviews__item-name text-bold">
+                                    สุรีย์พร, 65 ปี
+                                </p>
+                                <p class="reviews__item-stars"></p>
+                                <p class="reviews__item-date date-1"></p>
+                            </div>
+                        </div>
+                        <div class="reviews__item-text">
+                            สามีของฉันเริ่มดูโทรทัศน์เสียงดังมาก ฉันเริ่มสงสัยและสั่งซื้อแคปซูลนี้ให้เขา หลังจากผ่านไป
+                            1.5 เดือน
+                            เพื่อนบ้านก็ไม่ได้ยินเสียงทีวีของเราอีกต่อไป ผลลัพธ์ยอดเยี่ยมมาก!
+                        </div>
+                        <div class="reviews__item-more"></div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__item-header">
+                            <picture class="reviews__item-ava"><img src="images/reviews_ava-6.png" alt="image">
+                            </picture>
+                            <div class="reviews__item-info">
+                                <p class="reviews__item-name text-bold">
+                                    ปรียา, 44 ปี
+                                </p>
+                                <p class="reviews__item-stars"></p>
+                                <p class="reviews__item-date date-1"></p>
+                            </div>
+                        </div>
+                        <div class="reviews__item-text">
+                            การได้ยินของแม่ฉันเริ่มแย่ลง ในคลินิกเอกชนแห่งหนึ่ง พวกเขาไม่สนใจข้อร้องเรียนใดๆ
+                            ของเราและพยายามขายเครื่องช่วยฟังราคาแพงให้แทน
+                            แต่ฉันตัดสินใจจัดการเองและพบผลิตภัณฑ์ที่ยอดเยี่ยม ต้องขอบคุณผู้พัฒนา
+                            Biozin!
+                        </div>
+                        <div class="reviews__item-more"></div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__item-header">
+                            <picture class="reviews__item-ava"><img src="images/reviews_ava-7.png" alt="image">
+                            </picture>
+                            <div class="reviews__item-info">
+                                <p class="reviews__item-name text-bold">วิชญ์ 67 ปี</p>
+                                <p class="reviews__item-stars"></p>
+                                <p class="reviews__item-date date-2"></p>
+                            </div>
+                        </div>
+                        <div class="reviews__item-text">
+                            ฉันใช้แคปซูลมาเป็นเวลา 1 เดือน และฉันพอใจกับผลลัพธ์มาก ความดันในหูหายไป
+                            และฉันรู้สึกว่าฉันได้ยินเสียงทุกอย่างรอบตัวอีกครั้ง!
+                        </div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__item-header">
+                            <picture class="reviews__item-ava"><img src="images/reviews_ava-8.png" alt="image">
+                            </picture>
+                            <div class="reviews__item-info">
+                                <p class="reviews__item-name text-bold">ธีรเดช 57 ปี</p>
+                                <p class="reviews__item-stars"></p>
+                                <p class="reviews__item-date date-2"></p>
+                            </div>
+                        </div>
+                        <div class="reviews__item-text">
+                            ฉันสังเกตว่าฉันเริ่มถามคำถามเดิมๆ กับคู่สนทนาของฉัน และขอให้พวกเขาพูดซ้ำสองครั้ง
+                            ฉันไปที่คลินิก
+                            และโชคดีที่ได้เจอผู้เชี่ยวชาญที่ยอดเยี่ยม!
+                            เขาไม่ได้โน้มน้าวให้ฉันเข้ารับการผ่าตัดหรือซื้อเครื่องช่วยฟัง
+                            แต่แนะนำให้ฉันเริ่มใช้ Biozin ตอนนี้ หลังจากจบคอร์สที่สอง
+                            ฉันมั่นใจในประสิทธิภาพของผลิตภัณฑ์นี้ ทุกอย่างดีขึ้น!
+                        </div>
+                        <div class="reviews__item-more"></div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__item-header">
+                            <picture class="reviews__item-ava"><img src="images/reviews_ava-9.png" alt="image">
+                            </picture>
+                            <div class="reviews__item-info">
+                                <p class="reviews__item-name text-bold">กัญญา 29 ปี</p>
+                                <p class="reviews__item-stars"></p>
+                                <p class="reviews__item-date date-2"></p>
+                            </div>
+                        </div>
+                        <div class="reviews__item-text">
+                            ฉันซื้อผลิตภัณฑ์นี้ให้พ่อเมื่อ 2 เดือนก่อน พ่อของฉันทำงานก่อสร้างมาทั้งชีวิต
+                            ซึ่งมีเสียงดังอยู่เสมอ
+                            การได้ยินของเขาแย่ลงตามอายุ แต่หลังจากใช้ Biozin สถานการณ์ก็ดีขึ้นอย่างมาก!
+                        </div>
+                        <div class="reviews__item-more"></div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__item-header">
+                            <picture class="reviews__item-ava"><img src="images/reviews_ava-10.png" alt="image">
+                            </picture>
+                            <div class="reviews__item-info">
+                                <p class="reviews__item-name text-bold">จิราภา 55 ปี</p>
+                                <p class="reviews__item-stars"></p>
+                                <p class="reviews__item-date date-2"></p>
+                            </div>
+                        </div>
+                        <div class="reviews__item-text">
+                            การสูญเสียการได้ยินเป็นเรื่องที่น่ากลัวมากสำหรับฉัน ฉันสอนในโรงเรียนดนตรี
+                            ความเครียดอย่างต่อเนื่องทำให้ฉันปวดหัวอย่างรุนแรง และฉันไม่สามารถนอนหลับได้อย่างเหมาะสม
+                            หนึ่งในนักเรียนของฉันบอกว่าคุณยายของเธอฟื้นฟูการได้ยินด้วยแคปซูลนี้ ฉันลองใช้เพียงคอร์สเดียว
+                            และตอนนี้ดนตรี การสอน
+                            และความสุขกลับมาในชีวิตของฉันแล้ว!
+                        </div>
+                        <div class="reviews__item-more"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="use block">
+        <div class="container">
+            <h2 class="use__title title">วิธีใช้ Biozin</h2>
+            <div class="use__inner">
+                <ul class="use__content">
+                    <li class="use__item">
+                        <img class="use__item-image" src="images/use_item_image-1.png" alt="image">
+                        <p class="use__item-title text-bold">ขั้นตอน 1</p>
+                        <p class="use__item-text">รับประทานวันละ 1 แคปซูล 2 ครั้ง</p>
+                    </li>
+                    <li class="use__item">
+                        <img class="use__item-image" src="images/use_item_image-2.png" alt="image">
+                        <p class="use__item-title text-bold">ขั้นตอน 2</p>
+                        <p class="use__item-text">ดื่มน้ำหนึ่งแก้ว</p>
+                    </li>
+                    <li class="use__item">
+                        <img class="use__item-image" src="images/use_item_image-3.png" alt="image">
+                        <p class="use__item-title text-bold">ขั้นตอน 3</p>
+                        <p class="use__item-text">ทำซ้ำทุกวันจนจบคอร์ส</p>
+                    </li>
+                </ul>
+                <div class="use__image">
+                    <picture><img class="use__prod" src="./images/pack-2.png" alt="image"></picture>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="recommend">
+        <div class="container">
+            <div class="recommend__inner block">
+                <picture class="recommend__image"><img src="images/expert_image.png" alt="image"></picture>
+                <ul class="recommend__list">
+                    <li class="recommend__item recommend__item-1">
+                        ผลลัพธ์จากแคปซูล หลังจบคอร์ส ผลลัพธ์จะคงอยู่นานหลายปี
+                    </li>
+                    <li class="recommend__item recommend__item-2">
+                        เพื่อประสิทธิภาพสูงสุดจาก Biozin อย่าพลาดการรับประทานแคปซูล
+                    </li>
+                    <li class="recommend__item recommend__item-3">
+                        หลีกเลี่ยงสถานที่ที่มีเสียงดัง เพื่อลดความเสี่ยงในการเกิดปัญหาการได้ยิน
+                    </li>
+                </ul>
+                <p class="recommend__name text-bold">หมอธนภพ</p>
+                <p class="recommend__pos">
+                    หัวหน้าศูนย์วิจัย ผู้เชี่ยวชาญในการพัฒนาวิธีการและแอปพลิเคชันช่วยเหลือสำหรับการปรับปรุงการได้ยิน
+                    ประสบการณ์ทำงาน 20 ปี
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <section class="order block">
+        <div class="container">
+            <h2 class="order__title title">วิธีสั่งซื้อ Biozin</h2>
+            <div class="order__content">
+                <div class="order__item">
+                    <picture><img class="order__item-image" src="images/order_image-1.png" alt="image"></picture>
+                    <p class="order__item-title text-bold">กรอกแบบฟอร์มการสั่งซื้อ</p>
+                    <p class="order__item-text">กรอกชื่อและหมายเลขโทรศัพท์ของคุณ</p>
+                </div>
+                <div class="order__item">
+                    <picture><img class="order__item-image" src="images/order_image-2.png" alt="image"></picture>
+                    <p class="order__item-title text-bold">
+                        ตอบรับการโทรจากเจ้าหน้าที่
+                    </p>
+                    <p class="order__item-text">
+                        เจ้าหน้าที่จะสอบถามที่อยู่ของคุณและตอบคำถามทุกข้อ
+                    </p>
+                </div>
+                <div class="order__item">
+                    <picture><img class="order__item-image" src="images/order_image-3.png" alt="image"></picture>
+                    <p class="order__item-title text-bold">สะดวกสบายในขั้นตอนการชำระเงิน</p>
+                    <p class="order__item-text">ชำระเงินปลายทาง</p>
+                </div>
+                <div class="order__item">
+                    <picture><img class="order__item-image" src="images/order_image-4.png" alt="image"></picture>
+                    <p class="order__item-title text-bold">สัมผัสผลลัพธ์</p>
+                    <p class="order__item-text">
+                        คืนเสียงและความสุขให้ชีวิตของคุณ
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="promo-bg" id="order">
+        <section class="promo block promo-bottom">
+            <div class="container">
+                <div class="promo__content">
+                    <h2 class="title promo__title">
+                        Biozin — ความหวังสำหรับการฟื้นฟูการได้ยินของคุณ! ฟื้นคืนเสียงแห่งชีวิตได้ภายใน 14 วัน!
+                    </h2>
+                    <div class="promo__pack">
+                        <picture><img src="./images/pack-2.png" alt="product"></picture>
+                    </div>
+                    <div class="promo__box">
+                        <div class="promo__date">
+                            เฉพาะวันนี้ <br><span>
+                                <script>dtime('th', 0)</script>
+                            </span>
+                        </div>
+                        <div class="promo__price price">
+                            <div class="price__old">
+                                <span class="x_currency"><x-currency></x-currency></span>
+                                <span class="x_price_previous"> <x-oldprice>1980฿</x-oldprice></span>
+                            </div>
+                            <div class="price__new">
+                                <span class="x_currency"><x-currency></x-currency></span>
+                                <span class="x_price_current"> <x-newprice>990฿</x-newprice></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="promo__form">
+                        <form class="x_order_form form" action="#" method="post">
+                            <input type="hidden" name="subid5" value="back_vsl_form"><input type="hidden" name="click_id" value="preview"><label class="form__input--wrap">
+                                <input class="form__input" placeholder="ชื่อของคุณ" type="text" name="name" minlength="2" required>
+                            </label>
+                            <label class="form__input--wrap">
+                                <input class="form__input" placeholder="+66" type="tel" minlength="8" maxlength="16" required name="phone" autocomplete="tel" inputmode="tel"></label>
+                            <button class="btn form__btn" type="submit">สั่งซื้อ</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>ลิขสิทธิ์ © 2569 โดย Copyrightindex.com</p>
+        <p>สงวนลิขสิทธิ์ ห้ามทำซ้ำ แจกจ่าย หรือส่งในรูปแบบใด ๆ หรือด้วยวิธีการใด ๆ รวมถึงการทำสำเนา บันทึก
+            หรือวิธีการทางอิเล็กทรอนิกส์หรือเชิงกลอื่น ๆ โดยไม่ได้รับอนุญาตเป็นลายลักษณ์อักษรจากผู้เผยแพร่
+            ยกเว้นในกรณีที่มีการอ้างอิงโดยย่อในรีวิวสำคัญและการใช้งานที่ไม่ใช่เชิงพาณิชย์อื่น ๆ
+            ที่ได้รับอนุญาตตามกฎหมายลิขสิทธิ์
+        </p>
+    </footer>
+    <style>
+        .feedback {
+            width: 75px;
+            height: 70px;
+            position: fixed;
+            right: -15px;
+            top: 15%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #2a316e;
+            border-top-left-radius: 35px;
+            border-bottom-left-radius: 35px;
+            cursor: pointer;
+            z-index: 1000;
+            box-shadow: -2px 3px 11px rgb(0 0 0 / 30%);
+            transition: all 0.5s;
+        }
+
+        .feedback:hover {
+            right: 0;
+        }
+
+        .feedback img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .popup-window {
+            font-family: sans-serif;
+            font-family: inherit;
+            display: none;
+            width: 300px;
+            position: fixed;
+            right: 0;
+            top: 15%;
+            padding: 35px 10px;
+            background: #fff;
+            border-radius: 5px 0 0 5px;
+            z-index: 2000;
+            box-shadow: -2px 3px 11px rgb(0 0 0 / 17%);
+        }
+
+        .popup-window form {
+            width: 100%;
+            min-height: auto;
+            padding: 0;
+            background: inherit;
+            box-shadow: none;
+            height: auto;
+        }
+
+        .popup-window label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: #333;
+            text-transform: uppercase;
+        }
+
+        .popup-window input {
+            box-sizing: border-box;
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: none;
+            font-family: inherit;
+            font-size: 16px;
+            margin-bottom: 15px;
+            border: 1px solid #333;
+        }
+
+        .popup-window input::placeholder {
+            font-size: 16px;
+        }
+
+        .popup-window button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background: #2a316e;
+            color: #000;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 15px;
+            border-radius: 20px;
+        }
+
+        .close-popup {
+            position: absolute;
+            right: 10px;
+            top: 5px;
+            width: 27px;
+            height: 27px;
+            background-color: #fff;
+            cursor: pointer;
+        }
+
+        .close-popup:before {
+            content: "";
+            background: #333;
+            width: 20px;
+            height: 1px;
+            position: absolute;
+            top: 13px;
+            left: 4px;
+            transform: rotate(-45deg);
+        }
+
+        .close-popup:after {
+            content: "";
+            background: #333;
+            width: 20px;
+            height: 1px;
+            position: absolute;
+            top: 13px;
+            left: 4px;
+            transform: rotate(45deg);
+        }
+
+        @media screen and (max-width: 576px) {
+            .feedback {
+                top: 35%;
+            }
+
+            .popup-window {
+                top: 35%;
+            }
+        }
+    </style>
+    <div class="feedback"> <img src="./images/i-phone.png" alt=""></div>
+    <div class="popup-window">
+        <div class="close-popup"></div>
+        <form action="#" method="post">
+            <input type="hidden" name="subid5" value="back_vsl_form"><input type="hidden" name="click_id" value="preview"><label for="name2"></label>ชื่อของคุณ:<input id="name2" type="text" name="name" placeholder="ชื่อของคุณ" minlength="2" required>
+            <label for="phone2">หมายเลขโทรศัพท์ของคุณ:</label>
+            <input id="phone2" type="tel" name="phone" placeholder="+66" minlength="8" maxlength="16" required inputmode="tel" autocomplete="tel">
+            <button type="submit">สั่งซื้อ</button>
+        </form>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".feedback").click(function () {
+                $(".popup-window").show();
+            });
+            $(".close-popup").click(function () {
+                $(".popup-window").hide();
+            });
+        });
+    </script>
+    <script src="./js/index.js"></script>
+    <style>
+        input[type="tel"] {
+            outline: none;
+        }
+
+        a {
+            cursor: pointer !important;
+        }
+
+        button {
+            cursor: pointer !important;
+        }
+
+        button:disabled {
+            cursor: not-allowed !important;
+        }
+    </style>
+</body>
+
+</html>

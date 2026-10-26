@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('.termina-form').forEach(function(e){e.textContent+=' '+new Date().toLocaleDateString('th-TH')});});
